@@ -126,7 +126,7 @@ bottom: 6px;
   }
 }
 
-@media only screen and (max-width: 850px) {
+@media only screen and (max-width: 900px) {
   .list {
     display: grid;
     grid-template-columns: 1fr ;
