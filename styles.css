@@ -128,10 +128,11 @@ bottom: 6px;
     max-width: 800px;
   }
 }
+
 @media only screen and (max-width: 900px) {
   .list {
     display: grid;
-    grid-template-columns: 1fr ;
+    grid-template-columns: 1fr;
     grid-template-rows: auto;
     grid-gap: 30px;
     margin-top: 40px;
