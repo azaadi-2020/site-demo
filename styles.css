@@ -112,6 +112,22 @@ bottom: 6px;
 
 
 
+
+
+@media only screen and (max-width: 1150px) {
+  .list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-gap: 30px;
+    margin-top: 40px;
+
+  }
+
+  .container {
+    max-width: 800px;
+  }
+}
 @media only screen and (max-width: 900px) {
   .list {
     display: grid;
@@ -138,19 +154,4 @@ bottom: 6px;
   }
 
 
-}
-
-@media only screen and (max-width: 1150px) {
-  .list {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto;
-    grid-gap: 30px;
-    margin-top: 40px;
-
-  }
-
-  .container {
-    max-width: 800px;
-  }
 }
