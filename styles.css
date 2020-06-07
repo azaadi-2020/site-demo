@@ -1,3 +1,8 @@
+@viewport{
+    zoom: 1.0;
+    width: extend-to-zoom;
+}
+
 body {
   font-family: 'Jost', sans-serif;
   margin: 0;
@@ -35,7 +40,7 @@ h1 {
 
 .card {
   background-color: #161616;
-  height: 328px;
+ height: auto;
   border-radius: 12px;
   padding: 20px;
 }
@@ -111,6 +116,9 @@ bottom: 6px;
 @-webkit-keyframes fade-in-bck{0%{-webkit-transform:translateZ(80px);transform:translateZ(80px);opacity:0}100%{-webkit-transform:translateZ(0);transform:translateZ(0);opacity:1}}@keyframes fade-in-bck{0%{-webkit-transform:translateZ(80px);transform:translateZ(80px);opacity:0}100%{-webkit-transform:translateZ(0);transform:translateZ(0);opacity:1}}
 
 
+
+
+
 @media only screen and (max-width: 1150px) {
   .list {
     display: grid;
@@ -126,10 +134,10 @@ bottom: 6px;
   }
 }
 
-@media only screen and (max-width: 850px) {
+@media only screen and (max-width: 900px) {
   .list {
     display: grid;
-    grid-template-columns: 1fr ;
+    grid-template-columns: 1fr;
     grid-template-rows: auto;
     grid-gap: 30px;
     margin-top: 40px;
@@ -146,10 +154,15 @@ bottom: 6px;
 
     width:100%;
     text-align: left;
-    font-size: 45px;
+    font-size: 35px;
     line-height: 49px;
 
   }
-
+.card-title {
+font-size:24px;
+    }
+.card-para-text {
+font-size;16px;
+    }
 
 }
