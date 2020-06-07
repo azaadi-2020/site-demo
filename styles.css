@@ -40,7 +40,7 @@ h1 {
 
 .card {
   background-color: #161616;
-  height: 328px;
+ height: fit-content;
   border-radius: 12px;
   padding: 20px;
 }
