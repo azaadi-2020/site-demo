@@ -1,3 +1,27 @@
+.hide-me {
+  display: none;
+}
+
+.card-back {
+  display: none;
+}
+
+.reveal-me {
+  display: block;
+}
+
+.open-content {
+  width: 40px;
+  top: 289px;
+      right: 20px;
+      position: absolute;
+}
+
+.rotate-me {
+   transform: rotate(45deg);
+}
+
+
 @viewport{
     zoom: 1.0;
     width: extend-to-zoom;
