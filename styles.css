@@ -64,9 +64,10 @@ h1 {
 
 .card {
   background-color: #161616;
- height: auto;
+ height: 320.06px;
   border-radius: 12px;
   padding: 20px;
+
 }
 
 .bullet {
