@@ -15,6 +15,7 @@
   top: 289px;
       right: 20px;
       position: absolute;
+      cursor: pointer;
 }
 
 .rotate-me {
