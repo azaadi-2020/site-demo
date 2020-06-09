@@ -1,10 +1,10 @@
 $(function(){
 
-$('.open-content').on('click', function(){
+$('.toggle1').on('click', function(){
+  $(this).toggleClass("down")  ;
 
-  $('.card-front').toggleClass('hide-me');
-    $('.open-content').toggleClass('rotate-me');
-    $('.card-back').toggleClass('reveal-me');
+  $('.test').toggleClass('hide-me');
+    $('.test-back').toggleClass('reveal-me');
 });
 
 

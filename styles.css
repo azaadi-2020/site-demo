@@ -18,10 +18,17 @@
       cursor: pointer;
 }
 
-.rotate-me {
-   transform: rotate(45deg);
+.rotate{
+    -moz-transition: all .25s linear;
+    -webkit-transition: all .25s linear;
+    transition: all .25s linear;
 }
 
+.rotate.down{
+    -moz-transform:rotate(45deg);
+    -webkit-transform:rotate(45deg);
+    transform:rotate(45deg);
+}
 
 @viewport{
     zoom: 1.0;
