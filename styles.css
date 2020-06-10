@@ -1,3 +1,21 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .hide-me {
   display: none;
 }
@@ -158,6 +176,53 @@ bottom: 6px;
 .fade-in-bck{-webkit-animation:fade-in-bck .6s cubic-bezier(.39,.575,.565,1.000) both;animation:fade-in-bck .6s cubic-bezier(.39,.575,.565,1.000) both}
 
 @-webkit-keyframes fade-in-bck{0%{-webkit-transform:translateZ(80px);transform:translateZ(80px);opacity:0}100%{-webkit-transform:translateZ(0);transform:translateZ(0);opacity:1}}@keyframes fade-in-bck{0%{-webkit-transform:translateZ(80px);transform:translateZ(80px);opacity:0}100%{-webkit-transform:translateZ(0);transform:translateZ(0);opacity:1}}
+
+
+
+
+
+
+
+
+.thread-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  grid-gap: 30px;
+  margin-top: 40px;
+}
+
+
+
+
+
+blockquote.EmbeddedTweet {
+  border:transparent;
+}
+
+
+blockquote.twitter-tweet {
+  border:transparent;
+}
+
+twitter-widget .twitter-tweet {
+border:transparent;
+}
+
+
+
+
+
+
+
+#twtr-widget-1 .twtr-new-results, #twtr-widget-1 .twtr-results-inner, #twtr-widget-1 .twtr-timeline {
+    background:#FFFFFF !important;
+}
+
+
+
+
+
 
 
 
